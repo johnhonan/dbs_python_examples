@@ -18,5 +18,5 @@ for post in d.entries:
     
 text_model = markovify.Text(text)
 
-for i in range(100):
+for i in range(200):
     print(text_model.make_short_sentence(140))
